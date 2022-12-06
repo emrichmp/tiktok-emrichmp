@@ -1,7 +1,8 @@
 import Video from "./Video"
 import './App.css';
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import db from './firebase/firebase.js'
+import Navbar from './Navbar'
 
 function App() {
   const [videos, setVideos] = useState([]);
@@ -16,7 +17,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>TikTok</h1>
+      <Navbar />
       <div className="app_videos">
         {videos.map(
           ({ url, channel, description, sound, likes, messages, shares}) => (
