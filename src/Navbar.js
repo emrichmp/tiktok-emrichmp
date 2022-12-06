@@ -5,8 +5,8 @@ import './Navbar.css'
 const Navbar = () => {
     return (
         <div className="Navbar">
-            <img className="logo" src={tiktoklogo} alt="TikTok" />
-            <input className="searchBar" type="text"></input>
+            <a href="/"><img className="logo" src={tiktoklogo} alt="TikTok"/></a>
+            <input className="searchBar" type="text" placeholder="Search Accounts"></input>
             <input className="uploadButton" type="Button" value="+ Upload"></input>
             <input className="loginButton" type="Button" value ="Log in"></input>
             <MoreVertIcon />

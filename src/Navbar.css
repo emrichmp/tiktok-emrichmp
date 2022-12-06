@@ -1,6 +1,7 @@
 .Navbar {
-  background: grey;
+  background: rgb(255, 255, 255);
   height: 50px;
+  border-bottom: 1px solid rgb(216, 216, 216);
 }
 
 img {
@@ -10,18 +11,27 @@ img {
 }
 
 .searchBar {
+  color: rgb(180, 180, 180);
+  border-radius: 25px;
+  padding: 12px 90px;
+  margin-right: 100px;
+  margin-left: 100px;
   border-top-style: hidden;
   border-right-style: hidden;
   border-left-style: hidden;
   border-bottom-style: hidden;
-  background-color: rgb(219, 219, 219);
+  background-color: rgb(231, 231, 231);
+}
+
+.searchBar:focus {
+  border: 2px solid rgb(163, 163, 163);
 }
 
 .uploadButton {
   background-color: white;
   border-width: 1px;
   border-radius: 3px;
-  border-color: rgb(165, 165, 165);
+  border-color: rgb(202, 202, 202);
   padding: 8px 20px;
   font-family: "Figtree", sans-serif;
 }
