@@ -1,7 +1,7 @@
 import Video from "./Video"
 import './App.css';
 import { useEffect, useState } from "react";
-import db from './firebase.js'
+import db from './firebase/firebase.js'
 
 function App() {
   const [videos, setVideos] = useState([]);
@@ -27,7 +27,7 @@ function App() {
               sound={sound}
               likes={likes}
               messages={messages} 
-              shares={shares} 
+              shares={shares}
             />
         ))}
       </div>
