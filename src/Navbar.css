@@ -12,14 +12,13 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding-right: 10%;
 }
 
 .logo {
   width: 120px;
   height: auto;
   padding-top: 1%;
-  margin-left: 100px;
+  margin-left: 20px;
 }
 
 .searchInputs {
@@ -31,7 +30,8 @@
   border-radius: 25px;
   padding: 17px;
   padding-left: 15px;
-  padding-right: 150px;
+  padding-right: 200px;
+  margin-left: 5%;
   border-top-style: hidden;
   border-right-style: hidden;
   border-left-style: hidden;
@@ -62,7 +62,7 @@
   border-width: 1px;
   border-radius: 3px;
   border-color: rgb(202, 202, 202);
-  padding: 8px 20px;
+  padding: 11px 24px;
   font-family: "Figtree", sans-serif;
 }
 
@@ -76,7 +76,7 @@
   border-width: 0px;
   border-radius: 3px;
   color: white;
-  padding: 9px 21px;
+  padding: 12px 30px;
   font-family: "Figtree", sans-serif;
 }
 
