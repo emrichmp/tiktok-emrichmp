@@ -18,6 +18,7 @@ function App() {
   return (
     <div className="app">
       <Navbar />
+      <div className="main">
       <div className="app_videos">
         {videos.map(
           ({ url, channel, description, sound, likes, messages, shares}) => (
@@ -32,6 +33,7 @@ function App() {
             />
         ))}
       </div>
+    </div>
     </div>
   );
 }
