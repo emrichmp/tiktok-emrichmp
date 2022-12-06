@@ -11,6 +11,7 @@ html {
   max-width: 450px;
   scroll-snap-type: y mandatory;
   border-radius: 20px;
+  margin-bottom: 5%;
 }
 
 .main {
