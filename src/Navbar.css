@@ -1,6 +1,46 @@
 .Navbar {
-  background-color: grey;
+  background: grey;
+  height: 50px;
 }
 
 img {
+  width: 120px;
+  height: auto;
+  padding-top: 1%;
+}
+
+.searchBar {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background-color: rgb(219, 219, 219);
+}
+
+.uploadButton {
+  background-color: white;
+  border-width: 1px;
+  border-radius: 3px;
+  border-color: rgb(165, 165, 165);
+  padding: 8px 20px;
+  font-family: "Figtree", sans-serif;
+}
+
+.uploadButton:hover {
+  background-color: #e2e2e2;
+  transition: 0.7s;
+}
+
+.loginButton {
+  background-color: rgb(255, 71, 101);
+  border-width: 0px;
+  border-radius: 3px;
+  color: white;
+  padding: 8px 20px;
+  font-family: "Figtree", sans-serif;
+}
+
+.loginButton:hover {
+  background-color: rgb(209, 61, 86);
+  transition: 0.7s;
 }

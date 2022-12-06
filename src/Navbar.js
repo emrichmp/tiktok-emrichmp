@@ -6,9 +6,9 @@ const Navbar = () => {
     return (
         <div className="Navbar">
             <img className="logo" src={tiktoklogo} alt="TikTok" />
-            <input type="text"></input>
-            <input type="Button" value="+ Upload"></input>
-            <input type="Button" value ="Login"></input>
+            <input className="searchBar" type="text"></input>
+            <input className="uploadButton" type="Button" value="+ Upload"></input>
+            <input className="loginButton" type="Button" value ="Log in"></input>
             <MoreVertIcon />
         </div>
     )
