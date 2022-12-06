@@ -1,9 +1,6 @@
 .Navbar {
-  height: 100px;
-  border: tomato;
+  background-color: grey;
 }
 
 img {
-  width: 2em;
-  height: 3em;
 }
