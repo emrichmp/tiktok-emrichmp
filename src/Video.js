@@ -3,15 +3,7 @@ import { useRef, useState } from "react"
 import VideoFooter from "./VideoFooter";
 import VideoSidebar from "./VideoSidebar";
 
-const Video = ({
-    url,
-    channel,
-    description,
-    sound,
-    likes,
-    messages,
-    shares
-}) => {
+const Video = (props) => {
     const [play, setPlay] = useState(false);
     const videoRef = useRef(null);
 
@@ -26,23 +18,22 @@ const Video = ({
     }
     return(
         <div className="video">
-        <video 
+        <video
         className="video_player" 
         loop
         onClick={onVideoPress}
         ref={videoRef}
-        src={url}
-        //src="https://joy.videvo.net/videvo_files/video/free/2021-04/large_watermarked/210329_06B_Bali_1080p_013_preview.mp4"
+        src={props.url}
         ></video>
         <VideoFooter 
-        channel={channel} 
-        description={description} 
-        sound={sound}
+        channel={props.channel} 
+        description={props.description} 
+        sound={props.sound}
         />
         <VideoSidebar 
-        likes={likes} 
-        messages={messages} 
-        shares={shares}
+        likes={props.likes} 
+        messages={props.messages} 
+        shares={props.shares}
         />
         </div>
     )

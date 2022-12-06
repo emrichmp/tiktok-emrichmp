@@ -9,7 +9,7 @@ import ReplyRoundedIcon from '@mui/icons-material/ReplyRounded';
 
 
 
-function VideoSidebar( { likes, shares, messages }) {
+function VideoSidebar(props) {
     const [liked, setLiked] = useState(false);
 
     return (
@@ -24,18 +24,18 @@ function VideoSidebar( { likes, shares, messages }) {
                     ):(
                         <FavoriteBorderRoundedIcon onClick={(e) => setLiked(true)}/>
                     )}
-                    <p>{liked ? likes+1:likes}</p>
+                    <p>{liked ? props.likes+1:props.likes}</p>
                 </div>
                 <div className="videoSidebar_button">
                     <CommentRoundedIcon />
-                    <p>{messages}</p>
+                    <p>{props.messages}</p>
                 </div>
                 <div className="videoSidebar_button">
                     <BookmarkBorderRoundedIcon />
                 </div>
                 <div className="videoSidebar_button">
                     <ReplyRoundedIcon />
-                    <p>{shares}</p>
+                    <p>{props.shares}</p>
                 </div>
             </div>
         </div>
