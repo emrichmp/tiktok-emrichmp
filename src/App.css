@@ -5,16 +5,16 @@ html {
 .app_videos {
   /* margin: auto; */
   position: relative;
-  height: 800px;
-  overflow: scroll;
-  width: 80%;
-  max-width: 450px;
   scroll-snap-type: y mandatory;
+  overflow: scroll;
+  height: 600px;
+  width: 80%;
+  max-width: 330px;
   border-radius: 20px;
   margin-bottom: 5%;
 }
 
-.main {
+.feed {
   /* background-color: black; */
   height: 100vh;
   display: grid;
