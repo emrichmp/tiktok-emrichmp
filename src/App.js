@@ -3,6 +3,7 @@ import './App.css';
 import React, { useEffect, useState } from "react";
 import db from './firebase/firebase.js'
 import Navbar from './Navbar'
+import Sidebar from './Sidebar'
 
 function App() {
   const [videos, setVideos] = useState([]);
@@ -19,6 +20,8 @@ function App() {
     <div className="app">
       <Navbar />
       <div className="main">
+      <Sidebar/>
+      <div className="feed">
       <div className="app_videos">
         {videos.map(
           ({ url, channel, description, sound, likes, messages, shares}) => (
@@ -32,6 +35,7 @@ function App() {
               shares={shares}
             />
         ))}
+      </div>
       </div>
     </div>
     </div>
