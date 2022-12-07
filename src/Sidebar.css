@@ -1,0 +1,64 @@
+.topBar {
+  font-family: "Figtree", sans-serif;
+  border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.sideBar {
+  float: left;
+  display: flex;
+  margin-left: 10%;
+  margin-top: 3%;
+  padding-right: 20%;
+  font-family: "Figtree", sans-serif;
+  flex-direction: column;
+}
+
+.bottomBar {
+  background-color: white;
+  border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+#fyp {
+  color: rgb(255, 71, 101);
+}
+
+.topBarItems {
+  display: flex;
+  align-items: center;
+  padding-right: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.topBarItems:hover {
+  background-color: rgb(231, 231, 231);
+}
+
+h2 {
+  font-size: 18px;
+  padding-left: 8px;
+}
+
+.bottomBarItems {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.bottomBarItems:hover {
+  background-color: rgb(231, 231, 231);
+}
+
+h3 {
+  font-size: 18px;
+  padding-left: 8px;
+}
+
+p {
+  font-weight: 100;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(158, 158, 158);
+}
