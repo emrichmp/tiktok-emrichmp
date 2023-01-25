@@ -1,8 +1,8 @@
 .videoFooter {
   position: relative;
-  color: white;
-  bottom: 150px;
-  margin-left: 40px;
+  color: black;
+  bottom: 95%;
+  right: -120%;
   display: flex;
 }
 
@@ -10,12 +10,16 @@
   flex: 1;
 }
 
+.user_icon {
+  display: inline-block;
+}
+
 .videoFooter_record {
   animation: spinTheRecord infinite 5s linear;
   transform: scale(1.8);
   position: absolute;
-  bottom: 0;
-  right: 35px;
+  bottom: 5%;
+  right: 85%;
 }
 
 .videoFooter_icon {
@@ -50,4 +54,13 @@
   /* Apply animation to this element */
   -webkit-animation: scrolling-left1 20s linear infinite;
   animation: scrolling-left1 20s linear infinite;
+}
+
+.videoFooter_sound {
+  padding-left: 20%;
+}
+
+.videoFooter_channel {
+  padding-left: 15%;
+  color: black;
 }
