@@ -1,24 +1,27 @@
 import "./VideoFooter.css"
-import MusicNoteIcon from '@mui/icons-material/MusicNote';
+// import MusicNoteIcon from '@mui/icons-material/MusicNote';
 import DiscFullIcon from '@mui/icons-material/DiscFull';
-import Ticker from "react-ticker";
+// import Ticker from "react-ticker";
+import AccountCircleRoundedIcon from '@mui/icons-material/AccountCircleRounded';
 
 const VideoFooter = (props) => {
     return (
         <div className="videoFooter">
             <div className="videoFooter_text">
-                <h3>@{props.channel}</h3>
+            <AccountCircleRoundedIcon className="videoFooter_channelIcon"/>
+                <h3 className="videoFooter_channel"> @{props.channel}</h3>
                 <br></br>
                 <p>{props.description}</p>
                 <div className="videoFooter_ticker">
-                    <MusicNoteIcon className="videoFooter_icon"/>
-                    <Ticker mode="smooth">
+                    {/* <MusicNoteIcon className="videoFooter_icon"/> */}
+                    {/* <Ticker mode="smooth">
                         {({ index }) => (
                             <>
-                                <p>T{props.sound}</p>
+                                <p>{props.sound}</p>
                             </>
                         )}
-                    </Ticker>
+                    </Ticker> */}
+                    <p className="videoFooter_sound">{props.sound}</p>
                 </div>
             </div>
             <DiscFullIcon className="videoFooter_record" fontSize="large"/>

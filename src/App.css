@@ -3,19 +3,23 @@ html {
 }
 
 .app_videos {
+  /* background-color: black; */
   /* margin: auto; */
   position: relative;
-  height: 800px;
-  overflow: scroll;
-  width: 80%;
-  max-width: 450px;
   scroll-snap-type: y mandatory;
-  border-radius: 20px;
+  overflow: scroll;
+  height: 80%;
+  width: 80%;
+  /* max-width: 330px; */
+  /* border-radius: 20px; */
+  margin-bottom: 3%;
+  margin-top: 3%;
+  margin-left: 10%;
 }
 
-.app {
+.feed {
   /* background-color: black; */
   height: 100vh;
   display: grid;
-  place-items: center;
+  place-items: left;
 }

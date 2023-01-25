@@ -1,0 +1,86 @@
+.Navbar {
+  background: rgb(255, 255, 255);
+  height: 70px;
+  border-bottom: 1px solid rgb(216, 216, 216);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttons {
+  width: 250px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  padding-top: 1%;
+  margin-left: 20px;
+}
+
+.searchInputs {
+  display: flex;
+  align-items: center;
+}
+.searchBar {
+  color: rgb(71, 71, 71);
+  border-radius: 25px;
+  padding: 17px;
+  padding-left: 15px;
+  padding-right: 200px;
+  margin-left: 5%;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background-color: rgb(231, 231, 231);
+  font-family: "Figtree", sans-serif;
+}
+
+.searchBar:focus {
+  outline: none !important;
+}
+
+.searchRoundedIcon {
+  background: rgb(231, 231, 231);
+  margin-left: -12%;
+  padding: 13px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-left: 1px solid rgb(212, 212, 212);
+}
+
+.searchRoundedIcon:hover {
+  background: rgb(212, 211, 211);
+}
+
+.uploadButton {
+  background-color: white;
+  border-width: 1px;
+  border-radius: 3px;
+  border-color: rgb(202, 202, 202);
+  padding: 11px 24px;
+  font-family: "Figtree", sans-serif;
+}
+
+.uploadButton:hover {
+  background-color: #e2e2e2;
+  transition: 0.7s;
+}
+
+.loginButton {
+  background-color: rgb(255, 71, 101);
+  border-width: 0px;
+  border-radius: 3px;
+  color: white;
+  padding: 12px 30px;
+  font-family: "Figtree", sans-serif;
+}
+
+.loginButton:hover {
+  background-color: rgb(209, 61, 86);
+  transition: 0.7s;
+}
