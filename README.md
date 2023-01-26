@@ -6,7 +6,7 @@
 
 v1 - Basic Functionality - :white_check_mark:
 
-v2 - Basic Functionality + Stylized sidebar and top nav bar - :white_check_mark:
+**v2 - Basic Functionality + Stylized sidebar and top nav bar - :white_check_mark:**
 
 v3 - Adding More TikToks, Adding more styling to TikTok information text
 
