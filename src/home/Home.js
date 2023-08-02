@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../Navbar"
-import Sidebar from "../Sidebar"
-import Video from "../Video"
+import Navbar from "./Navbar"
+import Sidebar from "./Sidebar"
+import Video from "./Video"
 import db from '../firebase/firebase'
 import './Home.css'
 

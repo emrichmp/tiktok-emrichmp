@@ -1,4 +1,4 @@
-import tiktoklogo from './images/logo.png'
+import tiktoklogo from '../images/logo.png'
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import './Navbar.css'
