@@ -1,6 +1,7 @@
 import Login from './Login'
 import Header from './Header'
 import NewUser from './NewUser'
+import GoogleSignIn from './GoogleSignIn'
 
 const Signin = () => {
     return (
@@ -8,6 +9,7 @@ const Signin = () => {
             <Header />
             <Login />
             <NewUser />
+            <GoogleSignIn />
         </div>
     )
 }
