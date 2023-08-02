@@ -13,7 +13,9 @@ const Navbar = () => {
                     <SearchRoundedIcon className="searchRoundedIcon"/>
             </div>
             <div className="buttons">
-                <input className="uploadButton" type="Button" value="+ Upload"></input>
+                <Link to="/upload">
+                    <input className="uploadButton" type="Button" value="+ Upload"></input>
+                </Link>
                 <Link to="/signin">
                     <input className="loginButton" type="Button" value ="Sign in"></input>
                 </Link>

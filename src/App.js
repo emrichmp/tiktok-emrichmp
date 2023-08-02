@@ -3,6 +3,7 @@ import db from './firebase/firebase.js'
 import { Routes, Route } from "react-router-dom";
 import Home from './home/Home.js'
 import Signin from './signUpPage/Signin.js'
+import Upload from './upload/Upload.js'
 
 function App() {
   const [videos, setVideos] = useState([]);
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route path="/" exact element={ <Home/> } />
         <Route path="/signin" element={ <Signin/> } />
+        <Route path="/upload" element={ <Upload/> } />
       </Routes>
     </div>
   );
