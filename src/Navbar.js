@@ -2,6 +2,7 @@ import tiktoklogo from './images/logo.png'
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import './Navbar.css'
+import { Link } from "react-router-dom"
 
 const Navbar = () => {
     return (
@@ -13,7 +14,9 @@ const Navbar = () => {
             </div>
             <div className="buttons">
                 <input className="uploadButton" type="Button" value="+ Upload"></input>
-                <input className="loginButton" type="Button" value ="Log in"></input>
+                <Link to="/signin">
+                    <input className="loginButton" type="Button" value ="Sign in"></input>
+                </Link>
                 <MoreVertIcon />
             </div>
         </div>
