@@ -20,7 +20,7 @@ function App() {
     <div className="app">
       <Routes>
         <Route path="/" exact element={ <Home/> } />
-        <Route path="/signin" element={ <Signin/> } />
+        <Route path="/login" element={ <Signin/> } />
         <Route path="/upload" element={ <Upload/> } />
       </Routes>
     </div>

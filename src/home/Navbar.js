@@ -16,8 +16,8 @@ const Navbar = () => {
                 <Link to="/upload">
                     <input className="uploadButton" type="Button" value="+ Upload"></input>
                 </Link>
-                <Link to="/signin">
-                    <input className="loginButton" type="Button" value ="Sign in"></input>
+                <Link to="/login">
+                    <input className="loginButton" type="Button" value ="Log in"></input>
                 </Link>
                 <MoreVertIcon />
             </div>
