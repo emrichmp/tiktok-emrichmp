@@ -1,6 +1,10 @@
+import Header from '../signUp/Header'
+
 const NewUser = () => {
     return (
-        <div className="newUser">
+        <div className="Signup">
+            <Header />
+            <div className="signupForm">
                 Sign Up!
                 Email
                 <input name="name"></input>
@@ -10,6 +14,7 @@ const NewUser = () => {
                 <input type="password" name="confirmPassword"></input>
                 Show Password
                 <input type="checkbox" name="hideToggle"></input>
+            </div>
         </div>
     )
 }
